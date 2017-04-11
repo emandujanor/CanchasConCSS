@@ -1,16 +1,21 @@
+body{
+  background-color: #BEE6D8;
+}
 
 h1{
   margin:30px auto 0 auto;
   text-align: center;
   font-family: "Verdana",sans-serif;
-  color:#7FB3D5;
+  color:#7A36DB;
+  font-family: 'Satisfy', cursive;
 }
 #botones{
-  width: 190px;
+  width: 290px;
   height: 50px;
   margin:30px auto 0 auto;
   align-items: center;
 }
+
 /*este es el fondo de mis canchas*/
 .fondo{
   width: 600px;
@@ -32,6 +37,7 @@ h1{
   z-index: 5;
 
 }
+
 
 #semiciruloIzq {
      width: 50px;
@@ -88,4 +94,202 @@ h1{
   z-index: 5;
 }
 
+#balon_fut{
+  width:40px;
+  height: 40px;
+  background-color:white;
+  position:absolute;
+  margin-top: -250px;
+  margin-left: 320px;
+  border-radius: 20px;
+
+}
 /*estilos para la cancha de basket*/
+#fdo_basket{
+  background-color: #8A4B08;
+}
+#semiciruloIzq_basket{
+  width: 135px;
+  height: 270px;
+  border: 3pt solid #fff;
+  -moz-border-radius: 0 35px 135px 0;
+  -webkit-border-radius:  0 35px 135px 0;
+  border-radius:   0 135px 135px 0;
+  position:absolute;
+  margin:10px 0px 0px -3px;
+}
+
+#trapecio_left {
+    height:  50px;
+    width:  0px;
+    border-bottom:  20px solid transparent;
+    border-top: 20px solid transparent;
+    border-left: 70px solid #AB5F0D;
+    margin-top: 100px;
+    position: absolute;
+}
+#mediaCancha_basket{
+  width:2px;
+  height: 298px;
+  margin:0 auto;
+  border-style: solid;
+  border-width:  1pt;
+  border-color: #fff;
+  background-color: #fff;
+  z-index: 3;
+}
+#ciruloMedio_basket{
+     width: 100px;
+     height: 100px;
+     border: 3pt solid #fff;
+     -moz-border-radius: 60px;
+     -webkit-border-radius: 60px;
+     border-radius: 60px;
+     float: left;
+     margin:-200px 0px 0px 250px;
+     z-index: 15;
+}
+
+
+#ciruloIzq_basket{
+  width: 50px;
+  height: 50px;
+  border: 3pt solid #fff;
+  -moz-border-radius: 35px;
+  -webkit-border-radius: 35px;
+  border-radius: 35px;
+  float: left;
+  margin:116px 0px 0px 40px;
+  position: absolute;
+  z-index: 5;
+}
+
+#semiciruloDer_basket{
+  width: 135px;
+  height: 270px;
+  border: 3pt solid #fff;
+  -moz-border-radius: 35px 0 0 135px ;
+  -webkit-border-radius: 35px 0 0 135px;
+  border-radius:   135px 0 0 135px ;
+  position:absolute;
+  float: right;
+  margin:-289px 0px 0px 460px;
+}
+#ciruloDer_basket{
+  width: 50px;
+  height: 50px;
+  border: 3pt solid #fff;
+  -moz-border-radius: 35px;
+  -webkit-border-radius: 35px;
+  border-radius: 35px;
+  float: rigth;
+  margin:-185px 0px 0px 500px;
+  position: absolute;
+  z-index: 5;
+}
+#trapecioDer_basket {
+    height:  50px;
+    width:  0px;
+    border-bottom:  20px solid transparent;
+    border-top: 20px solid transparent;
+    border-right:  70px solid #AB5F0D;
+    margin-top:-200px;
+    float: right;
+    position: relative;
+
+}
+#balon_basket{
+  width:40px;
+  height: 40px;
+  background-color:#DF6202;
+  position:absolute;
+  margin-top: -100px;
+  margin-left: 340px;
+  border-radius: 20px;
+
+}
+
+/*estilos para la cancha de tenis*/
+#area1_tenis{
+  width:600px;
+  height:50px;
+  margin:0;
+  border-bottom-style: solid;
+  border-width:  3pt;
+  border-color: #fff;
+}
+
+#area2_tenis{
+  width:133px;
+  height:200px;
+  margin:-3px 0px 0px 0px;
+  border-style: solid;
+  border-width:  3pt;
+  border-color: #fff;
+  float:left;
+
+}
+#area3_tenis{
+  width:320px;
+  height:100px;
+  margin:-3px 0px 0px -3px;
+  border-style: solid;
+  border-width:  3pt;
+  border-color: #fff;
+  float:left;
+
+}
+
+#areaMediaTenis{
+  width:2px;
+  height: 298px;
+  margin:0 auto;
+  border-style: solid;
+  border-width:  1pt;
+  border-color: #fff;
+  background-color: #fff;
+  position:absolute;
+  margin:-54px 0px 0px 290px;
+}
+
+#area4_tenis{
+  width:320px;
+  height:100px;
+  margin:-4px 0px 0px 1px;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-width:  3pt;
+  border-color: #fff;
+  float:left;
+
+}
+#area5_tenis{
+  width:133px;
+  height:200px;
+  margin:-3px 0px 0px 460px;
+  border-style: solid;
+  border-width:  3pt;
+  border-color: #fff;
+  float:right;
+  position:absolute;
+
+}
+#area6_tenis{
+  width:600px;
+  height:50px;
+  margin:0px;
+  border-bottom-style: solid;
+  border-width:  3pt;
+  border-color: #fff;
+  float: left;
+}
+
+#balon_tenis{
+  width:20px;
+  height: 20px;
+  background-color:#13CC16;
+  position:absolute;
+  margin-top: 60px;
+  margin-left: 340px;
+  border-radius: 15px;
+}
