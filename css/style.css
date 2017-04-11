@@ -102,6 +102,12 @@ h1{
   margin-top: -250px;
   margin-left: 320px;
   border-radius: 20px;
+  transition: 2s;
+
+}
+#balon_fut:hover{
+  margin-top: -150px;
+  margin-left: 100px;
 
 }
 /*estilos para la cancha de basket*/
@@ -208,6 +214,11 @@ h1{
   border-radius: 20px;
 
 }
+#balon_basket:hover{
+  margin-top: -250px;
+  margin-left: 140px;
+  transition:2s;
+}
 
 /*estilos para la cancha de tenis*/
 #area1_tenis{
@@ -298,4 +309,11 @@ h1{
   margin-top: 60px;
   margin-left: 340px;
   border-radius: 15px;
+}
+
+#balon_tenis:hover{
+  margin-top: 90px;
+  margin-left: 40px;
+  transition:2s;
+
 }
